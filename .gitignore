@@ -1,0 +1,7 @@
+node_modules
+
+.next/cache/next-babel-loader/
+
+.next/
+
+package-lock.json
