@@ -13,14 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "next": "latest",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-redux": "^7.2.2",
-    "redux": "^4.0.5",
-    "sass": "^1.27.0"
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "sass": "1.27.0"
   },
   "devDependencies": {
-    "eslint": "^7.12.1",
+    "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^6.15.0",
@@ -31,8 +31,8 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.0.0",
     "prettier": "^2.1.2",
-    "stylelint": "^13.7.2",
-    "stylelint-config-sass-guidelines": "^7.1.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint": "13.7.2",
+    "stylelint-config-sass-guidelines": "7.1.0",
+    "stylelint-config-standard": "20.0.0"
   }
 }
