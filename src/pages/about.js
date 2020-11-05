@@ -1,5 +1,7 @@
-import Layout from "components/Layout"
-import styles from 'sass/Index.module.scss'
+import React from 'react';
+
+import Layout from 'components/Layout';
+import styles from 'sass/Index.module.scss';
 
 const About = () => (
   <Layout>
