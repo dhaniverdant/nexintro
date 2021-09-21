@@ -1,32 +1,22 @@
 import React from 'react';
 
-import Link from 'next/link';
-
 const Navbar = () => (
-  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
-    <div className="container">
-      <a className="navbar-brand" href="/">
-        NextIntro
+  <nav>
+    <div className="nav-wrapper container">
+      <a href="#" className="brand-logo">
+        Logo
       </a>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link href="/">
-              <a className="nav-link">Home</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/about">
-              <a className="nav-link">About</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/contact">
-              <a className="nav-link">Contact</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
+      <ul id="nav-mobile" className="right hide-on-med-and-down">
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
 );

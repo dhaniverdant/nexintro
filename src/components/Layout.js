@@ -9,7 +9,7 @@ const Layout = (props) => (
       <title>Learning Next</title>
       <link
         rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
       />
     </Head>
     <Navbar />
