@@ -1,5 +1,7 @@
-import Head from 'next/head'
-import Navbar from "./Navbar"
+/* eslint-disable react/destructuring-assignment */
+import React from 'react';
+import Head from 'next/head';
+import Navbar from './Navbar';
 
 const Layout = (props) => (
   <div>

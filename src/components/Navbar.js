@@ -3,34 +3,9 @@ import React from 'react';
 import Link from 'next/link';
 
 const Navbar = () => (
-  // <div>
-  //   <ul>
-  //     <li><Link href="/"><a>Home</a></Link></li>
-  //     <li><Link href="/about"><a>About</a></Link></li>
-  //   </ul>
-
-  //   <style jsx>{`
-  //     ul {
-  //       background: #337;
-  //       color: #fff;
-  //       list-style: none;
-  //       display: flex;
-  //     }
-
-  //     ul li {
-  //       font-size: 18px;
-  //       margin-right: 20px;
-  //     }
-
-  //     ul li a {
-  //       color: #fff;
-  //       text-decoration: none;
-  //     }
-  //   `}</style>
-  // </div>
   <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
     <div className="container">
-      <a className="navbar-brand" href="#">
+      <a className="navbar-brand" href="/">
         NextIntro
       </a>
       <div className="collapse navbar-collapse">
@@ -43,6 +18,11 @@ const Navbar = () => (
           <li className="nav-item">
             <Link href="/about">
               <a className="nav-link">About</a>
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/contact">
+              <a className="nav-link">Contact</a>
             </Link>
           </li>
         </ul>
